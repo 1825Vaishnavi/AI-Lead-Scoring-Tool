@@ -8,7 +8,7 @@ Upload any CSV of leads → AI scores each one 1-10 → Auto-routes into Hot/War
 
 
 ## What It Does
-This tool solves a real problem — sales teams waste hours manually sorting through hundreds of leads with no smart way to prioritize who to contact first.
+This tool solves a real problem - sales teams waste hours manually sorting through hundreds of leads with no smart way to prioritize who to contact first.
 The AI scoring engine analyzes every lead across 4 factors:
 - Industry alignment - hospitality, marina, real estate, restaurant score higher
 - Budget size - larger budgets indicate serious investment
@@ -16,8 +16,8 @@ The AI scoring engine analyzes every lead across 4 factors:
 - Company scale - established companies score higher
 
 Every lead is automatically routed into one of three pipelines:
--  Hot (8-10) → Sales Team — 24 hour SLA
--  Warm (6-7) → Marketing Team — 48 hour follow up
+-  Hot (8-10) → Sales Team - 24 hour SLA
+-  Warm (6-7) → Marketing Team - 48 hour follow up
 -  Cold (1-5) → Automated nurture campaign
 
 ---
@@ -31,7 +31,6 @@ Every lead is automatically routed into one of three pipelines:
 - Deal value estimation - Platinum/Gold/Silver/Bronze tier per lead
 - Portfolio matching - matches each lead to similar Waterside businesses
 
----
 
 ##  Project Structure
 waterside-ai-lead-scoring/
@@ -42,14 +41,12 @@ waterside-ai-lead-scoring/
 
 
 
-
 ##  Tech Stack
 - Python - core language
 - Streamlit - interactive dashboard
 - Pandas - data processing
 - Smart column detection - works with any CSV format
 
----
 
 ##  How to Run
 1. Install dependencies
@@ -99,7 +96,6 @@ Maximum Score: 10/10
 | Flying Bridge Restaurant | Restaurant/Dining  |
 | Basecamp Brewing | Restaurant/Dining  |
 
----
 
 ##  What I'd Add Next
 - Connect to HubSpot API for real-time lead ingestion
@@ -107,8 +103,4 @@ Maximum Score: 10/10
 - Add email automation — hot leads get personalized outreach instantly
 - Integrate with Meta/Google Ads for lead source tracking
 
----
 
-##  Author
-Vaishnavi Mallikarjun Gajarla
-MS Data Analytics Engineering — Northeastern University
